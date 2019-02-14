@@ -10,7 +10,7 @@ function myFunction() {
     weekday[6] = "Saturday";
   
     var n = weekday[d.getDay()];
-    document.getElementById("weekday").innerHTML = n;
-    document.getElementById("date").innerHTML = ", " + d.getDate() + d.getMonth() + d.getFullYear(); 
+    document.getElementById("date").innerHTML = n + ", " + d.getDate() + " " + d.getMonth() + " " + d.getFullYear();
+  
   }
   myFunction();
