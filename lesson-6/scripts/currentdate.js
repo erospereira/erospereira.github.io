@@ -13,3 +13,4 @@ function myFunction() {
     document.getElementById("weekday").innerHTML = n;
     document.getElementById("date").innerHTML = ", " + d.getDate() + d.getMonth() + d.getFullYear(); 
   }
+  myFunction();
