@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
   <script>
     function myFunction() {
       var x = document.getElementById("myLinks");
@@ -54,6 +55,8 @@
     <img>
     <section>
         <h3>Weather Summary</h3>
+        The average temperature is <span id="temperature">30</span> fahrenheit and the average speed of wind is <span id="windSpeed">50</span> miles/hour.
+ <p>The windchill factor is <div id="output"></div>.</p>
     </section>
 </div>
 <div>
@@ -75,6 +78,7 @@
             <script src="scripts/currentdate.js">
             
             </script>
+            <script src="scripts/windchill.js"></script>
     </footer>
   
 </body>
