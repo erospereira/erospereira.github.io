@@ -85,6 +85,9 @@ nav{
     width: 100%;
     font-family: 'Open Sans', sans-serif;
 }
+.selected {
+    color: blue;
+}
 nav li:hover{
     background-color:#9AFF19;
 }
