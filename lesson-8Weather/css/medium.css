@@ -1,0 +1,7 @@
+@media (max-width: 910px)  and (min-width: 619px){
+    #gallery{
+        display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1em;
+    }
+}

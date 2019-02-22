@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Weather Website</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+<!-- css files-->
+
+<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+
+<!-- js files -->
+
+<script src="scripts/hamburger.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/leaf.png">
+        <div>
+        <h1>Preston's Weather</h1>
+        <h2 class="motto">Know the weather</h2>
+      </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+
+            <div id="myLinks">
+              <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li ><a href="preston-7.html">Home</a></li>
+            <li ><a>Preston</a></li>
+            <li ><a>Soda Springs</a></li>
+            <li ><a>Fish Haven</a></li>
+            <li ><a href="stormcenter.html">Storm Center</a></li>
+            <li ><a href="gallery-7.html">Gallery</a></li>
+        
+        </ul>
+
+    </nav>
+    <main>
+<h1>Town name</h1>
+<div>
+    <img>
+    <section>
+        <h3>Weather Summary</h3>
+        The average temperature is <span id="temperature">30</span> 
+        fahrenheit and the average speed of wind is <span id="windSpeed">50</span> miles/hour.
+ <p>The windchill factor is <span id="output"></span>&deg;F.</p>
+    </section>
+</div>
+<div>
+    <article>
+        <h2>Article Title</h2>
+        <h4>by author</h4>
+        <p>Many words</p>
+    </article>
+    <img src="images/Optimized-cit230_image_franklinOriginal.jpeg">
+</div>
+
+    </main>
+
+    <footer>
+            <h3>contact information</h3>
+            <div id="date">weekday</div>
+            <div>right columns</div>
+            <img>
+            <script src="scripts/currentdate.js"></script>
+            
+            
+    </footer>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@media (min-width: 770px){
+    li{
+        display: inline-block;
+        margin: 1em;
+    }
+    .hamburger{
+        display: none;
+    }
+    #myLinks{
+display: block;
+    }
+}
+
+
+@media (min-width: 911px){
+    #gallery{
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }}
