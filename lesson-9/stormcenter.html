@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Weather Website</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+<!-- css files-->
+
+<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+
+<!-- js files -->
+
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/rating.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/leaf.png">
+        <div>
+        <h1>Preston's Weather</h1>
+        <h2 class="motto">Know the weather</h2>
+      </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+
+            <div id="myLinks">
+              <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li ><a href="preston-7.html">Home</a></li>
+            <li ><a>Preston</a></li>
+            <li ><a>Soda Springs</a></li>
+            <li ><a>Fish Haven</a></li>
+            <li ><a class="selected">Storm Center</a></li>
+            <li ><a href="gallery-7.html">Gallery</a></li>
+        
+        </ul>
+
+    </nav>
+    <main>
+<form action="thanks.html" method="get">
+
+<label for="fullName">Full name:</label>
+<input type="text" name="fullName" required pattern="[A-Za-z ]{4}[A-Za-z ]+">
+<br/>
+<label for="email">Email:</label>
+<input type="email" name="email" placeholder="your@email.com">
+<br/>
+<label for="phoneNumber">Phone Number:</label>
+<input type="tel" name="phoneNumber" required>
+<br/>
+<label for="zipCode">Zip Code:</label>
+<input type="number" required>
+<br/>
+<label for="stormDate">Storm Date:</label>
+<input type="date" name="stormDate">
+<br/>
+<label for="stormType">Storm type:</label>
+<input list="stormType" name="stormType">
+    <datalist id="stormType">
+        <option value="Flash Flood">Flash Flood</option>
+        <option value="Hail">Hail</option>
+        <option value="Hurricane">Hurricane</option>
+        <option value="Thunderstorm">Thunderstorm</option>
+        <option value="Tornado">Tornado</option>
+    </datalist>
+<br/>
+<label for="stormSeverity">Storm Severity:</label>
+<input type="range" name="stormSeverity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+<span id="ratingValue">5</span>
+<br/>
+<label for="stormRegion">Storm Region:</label>
+<select name="stormRegion">
+    <option selected="selected" disabled>Select Region...</option>
+    <option value="Franklin">Franklin</option>
+    <option value="Greenville">Greenville</option>
+    <option value="Springfield">Sprinfield</option>
+</select>
+<br/>
+<label for="in-danger">User in danger?</label>
+<div><input type="radio" id="yes" name="in-danger" value="yes">
+<label for="yes">Yes</label></div>
+<div><input type="radio" id="maybe" name="in-danger" value="maybe">
+<label for="maybe">Maybe</label></div>
+<div><input type="radio" id="no" name="in-danger" value="no">
+<label for="no">No</label></div>
+
+<br/>
+<label for="comments">Additional information or comments:</label>
+<textarea  id="comments" name="comments" placeholder="Write something here..."></textarea>
+<br/>
+<input type="submit" value="Submit">
+</form>
+    </main>
+
+    <footer>
+            <h3>contact information</h3>
+            <div id="date">weekday</div>
+            <div>right columns</div>
+            <img>
+            <script src="scripts/currentdate.js"></script>
+            
+            
+    </footer>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
