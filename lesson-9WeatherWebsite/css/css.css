@@ -9,6 +9,22 @@ input:valid{
     border: 2px solid black;
 }
 
+.responsive{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.indexGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-gap: 1em;*/
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 150%;
+}
+
 form{
     display: flex;
     flex-flow: column  wrap;
