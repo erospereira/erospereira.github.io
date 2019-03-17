@@ -16,6 +16,31 @@ input:valid{
     
 }
 
+#summ{
+    width: 100%;
+    text-align: center;
+    margin: 2em;
+
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: center; 
+    
+  }
+  th{
+    color: white;
+    background-color:  #64b200; 
+  }
+  td{
+    color: white;
+    background-color:  #9AFF19; 
+  }
+
 .indexGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
