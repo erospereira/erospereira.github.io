@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Weather Website</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+<!-- css files-->
+
+<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+
+<!-- js files -->
+
+<script src="scripts/hamburger.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/leaf.png">
+        <div>
+        <h1>Preston's Weather</h1>
+        <h2 class="motto">Know the weather</h2>
+      </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+
+            <div id="myLinks">
+                <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li ><a  href="index.html">Home</a></li>
+                <li ><a  href="preston.html">Preston</a></li>
+                <li ><a href="sodasprings.html"> Soda Springs</a></li>
+                <li ><a class="selected" href="fishhaven.html">Fish Haven</a></li>
+                <li ><a href="stormcenter.html">Storm Center</a></li>
+                <li ><a href="gallery-7.html">Gallery</a></li>
+        
+        </ul>
+
+    </nav>
+    <main>
+            <section>
+                <div id="summ">
+                    <h1>Weather Summary</h1>
+                    Currently: <span id="currently"></span>&deg;F</br>
+                    High: <span id="high"></span>&deg;F</br>
+                    Windchill: <span id="output"></span>&deg;F</br>
+                    Humidity: <span id="humidity"></span>%</br>
+                    Windspeed: <span id="windspeed"></span>m/h</br>
+                </div>    
+                    <table style="width:100%">
+                            <tr>
+                              
+                              <th id="day1Day"></th>
+                              <th id="day2Day"></th>
+                              <th id="day3Day"></th>
+                              <th id="day4Day"></th>
+                              <th id="day5Day"></th>
+                            </tr>
+                            
+                            <tr>
+                            <td><span id="day1icon"></span></br><span id="day1tem"></span></td>
+                              <td><span id="day2icon"></span></br><span id="day2tem"></span></td>
+                              <td><span id="day3icon"></span></br><span id="day3tem"></span></td>
+                              <td><span id="day4icon"></span></br><span id="day4tem"></span></td>
+                              <td><span id="day5icon"></span></br><span id="day5tem"></span></td>
+                            </tr>
+                            
+                            
+                          </table>
+                    
+                    
+            
+                </section>
+<div class="indexGrid">
+    <div><h1>Preston</h1>
+    <b><i>Idaho Festival of Lights</i></b></br>
+    <b>Year Founded:</b> 1860</br>
+    <b>Population:</b> 5391</br>
+    <b>Annual Rain Fall:</b> 16"</br></br>
+    <img src="images/preston.jpg" class="responsive"></div>
+
+
+    <div>
+    <h1>Soda Springs</h1>
+    <b><i>Soda Springs Geyser</i></b></br>
+    <b>Year Founded:</b> 1875</br>
+    <b>Population:</b> 3038</br>
+    <b>Annual Rain Fall:</b> 39"</br></br>
+    <img src="images/sodaSprings.jpg" class="responsive">
+    </div>
+
+    <div>
+    <h1>Fish Haven</h1>
+    <b><i>Shores of Bear Lake</i></b></br>
+    <b>Year Founded:</b> 1864</br>
+    <b>Population:</b> 213</br>
+    <b>Annual Rain Fall:</b> 16"</br></br>
+    <img src="images/fishHaven.jpg" class="responsive">
+    </div>
+
+    <script src="scripts/weatherapif.js"></script>
+
+    
+</div>
+
+    
+
+    </main>
+
+    <footer>
+      <h5>&copy; Eros Pereira Mar 2019</h5></br>
+      <h5>Today's Date:</h5>
+      <div id="date">weekday</div>
+    
+      
+      <script src="scripts/currentdate.js"></script>
+      
+      
+</footer>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

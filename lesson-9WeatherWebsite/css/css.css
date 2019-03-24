@@ -35,7 +35,7 @@ form{
 }
 
 header{
-    background-color: #9AFF19;
+    background-color: #ff7873;
     color: #ffffff;
     padding: 0;
     margin: 0;
@@ -69,7 +69,7 @@ main{
 
 footer{
     padding:2em;
-    background-color: #64b200;
+    background-color: #60cfd1;
     color:white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -92,7 +92,7 @@ header h2{
     font-size: 15px;
 }
 nav{
-    background-color: #64B200;
+    background-color: #60cfd1;
     color: #fff;
     padding: 0;
     margin: 0;
@@ -107,7 +107,7 @@ nav{
     color: blue;
 }
 nav li:hover{
-    background-color:#9AFF19;
+    background-color:#ff7873;
 }
 ul{
     list-style-type: none;

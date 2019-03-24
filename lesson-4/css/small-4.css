@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color: #9AFF19;
+    background-color: #ff7873;
     color: #ffffff;
     padding: 0;
     margin: 0;
@@ -28,7 +28,7 @@ header h2{
     font-size: 15px;
 }
 nav{
-    background-color: #64B200;
+    background-color: #60cfd1;
     color: #fff;
     padding: 0;
     margin: 0;
@@ -38,7 +38,7 @@ nav{
     font-family: Geosanslight;
 }
 nav li:hover{
-    background-color:#9AFF19;
+    background-color:#ff7873;
 }
 ul{
     list-style-type: none;
